@@ -7,7 +7,7 @@ import (
 )
 
 func getCmd() string {
-	return "./vendor/yt-dlp"
+	return "yt-dlp"
 }
 
 func Download(url string) error {
